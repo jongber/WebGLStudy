@@ -95,7 +95,7 @@ function initTextures(gl, n) {
     image.onload = function () {
         loadTexture(gl, n, texture, u_Sampler, image);
     }
-    image.src = '../resources/orange.jpg';
+    image.src = '../resources/sky.jpg';
 }
 function loadTexture(gl, n, texture, u_Sampler, image) {
     gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, 1);  // flip the image's y axis
